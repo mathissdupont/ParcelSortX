@@ -24,13 +24,21 @@ ParcelSortX is a simulation project designed to model a smart logistics center w
 
 ParcelSortX/
 │
-├── src/ # All source code files \n
-│ ├── main.java\n
-│ └── ...\n
-│\n
-├── config.txt # Simulation configuration\n
-├── report.txt # Final summary report\n
-├── log.txt # Per-tick simulation logs\n
-├── README.md # Project description and instructions\n
-└── ParcelSortX_Report.pdf # Project documentation (PDF)\n
-\n
+├── src/ # All source code files
+│ ├── main.java
+
+│ └── ...
+
+│
+
+├── config.txt # Simulation configuration
+
+├── report.txt # Final summary report
+
+├── log.txt # Per-tick simulation logs
+
+├── README.md # Project description and instructions
+
+└── ParcelSortX_Report.pdf # Project documentation (PDF)
+
+
