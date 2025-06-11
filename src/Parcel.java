@@ -3,14 +3,14 @@ public class Parcel {
         InQueue, Sorted, Dispatched, Returned
     }
 
-    public int parcelID;
+    public String parcelID;
     public String destinationCity;
     public int priority;
     public String size;
     public int arrivalTick;
     public Status status;
 
-    public Parcel(int parcelID, String destinationCity, int priority, String size, int arrivalTick) {
+    public Parcel(String parcelID, String destinationCity, int priority, String size, int arrivalTick) {
         this.parcelID = parcelID;
         this.destinationCity = destinationCity;
         this.priority = priority;
