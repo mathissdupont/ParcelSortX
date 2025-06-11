@@ -1,0 +1,20 @@
+public class BSTTest {
+    public static void main(String[] args) {
+        DestinationSorter sorter = new DestinationSorter(); //bst'yi başlatıyor
+
+        Parcel p1 = new Parcel("P1", "Izmir", 2, "Small", 1);
+        Parcel p2 = new Parcel("P2", "Ankara", 3, "Large", 1);
+        Parcel p3 = new Parcel("P3", "Izmir", 1, "Medium", 2);
+
+        sorter.insertParcel(p1);
+        sorter.insertParcel(p2);
+        sorter.insertParcel(p3);
+
+        sorter.inOrderTraversal(); // Ankara, Izmir sıralı yazmalı
+        System.out.println("Izmir parcel count: " + sorter.countCityParcels("Izmir"));
+    }
+}
+//BST yapısının doğru çalıştığını
+//Şehirlerin alfabetik sırayla tutulduğunu
+//Aynı şehre ait kargoların bir kuyrukta toplandığını
+//Bu kuyrukların doğru sayıda olduğunu
