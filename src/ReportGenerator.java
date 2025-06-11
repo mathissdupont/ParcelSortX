@@ -7,6 +7,8 @@ public class ReportGenerator {
     public void generateReport(SimulationMetrics metrics, String filename) {//metrics simülasyon istatistikleri için, filename rapor dosyası adı için 
         //dosya yazma işlemleri
         //hatalı dosya yazımı programı durudrmasın diye try catch
+        //hatalı dosya yazımı programı durudrmasın, dosya kapalılmasın diye try catch
+        (Destinationsorter.java, ReportGenerator.java, BSTTest.java ve SimulationTest.java eklendi)
         try (FileWriter writer = new FileWriter(filename)) {
             writer.write("=== ParcelSortX Final Report ===\n");
             writer.write("Total Ticks: " + metrics.totalTicks + "\n");
