@@ -1,4 +1,4 @@
-public class DestinationSorter {
+public class {
 
     private class CityNode {
         String cityName;
