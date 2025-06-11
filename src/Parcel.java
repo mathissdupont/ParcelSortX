@@ -19,7 +19,7 @@ public class Parcel {
         this.status = Status.InQueue;
     }
     //getters
-    public int getParcelID() {
+    public String getParcelID() {
         return parcelID;
     }
 
