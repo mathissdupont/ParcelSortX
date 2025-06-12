@@ -1,0 +1,7 @@
+public class SimulationTest {
+    public static void main(String[] args) {
+        SimulationEngine engine = new SimulationEngine();
+        engine.loadConfig("test_config.txt");
+        engine.run();
+    }
+}
